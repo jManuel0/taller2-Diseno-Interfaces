@@ -3,12 +3,12 @@ import { Poppins } from "next/font/google";
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["400", "600", "700"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata = {
   title: "Events",
-  description: "Simple Events UI with Tailwind",
+  description: "Events UI",
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} bg-gray-100`}>
+      <body className={`${poppins.className} bg-gray-100 text-gray-900`}>
         {children}
       </body>
     </html>
