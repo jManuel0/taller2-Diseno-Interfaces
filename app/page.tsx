@@ -4,8 +4,8 @@ export default function Home() {
       <h1 className="text-4xl font-bold mb-10">Events</h1>
 
       <div className="space-y-6">
-        
-        {/* Card 1 */}
+
+        {/* Event 1 */}
         <div className="bg-white rounded-2xl shadow p-6 flex items-center justify-between">
           <div className="flex gap-6 items-center">
             <div className="bg-gray-100 rounded-xl p-4 text-center w-24">
@@ -18,7 +18,7 @@ export default function Home() {
                 Bergen International Film Festival
               </h2>
               <p className="text-gray-500 text-sm mt-1">
-                Films from all over the world gather all film enthusiasts.
+                Films from around the world bring together cinema lovers for a unique experience.
               </p>
             </div>
           </div>
@@ -28,7 +28,7 @@ export default function Home() {
           </button>
         </div>
 
-        {/* Card 2 */}
+        {/* Event 2 */}
         <div className="bg-white rounded-2xl shadow p-6 flex items-center justify-between">
           <div className="flex gap-6 items-center">
             <div className="bg-purple-100 rounded-xl p-4 text-center w-24">
@@ -37,9 +37,9 @@ export default function Home() {
             </div>
 
             <div>
-              <h2 className="text-xl font-semibold">Wool week</h2>
+              <h2 className="text-xl font-semibold">Wool Week</h2>
               <p className="text-gray-500 text-sm mt-1">
-                ULLVEKA 2021 will be held 22 - 31 October.
+                ULLVEKA 2021 will take place from October 22 to 31 across the Bergen region.
               </p>
             </div>
           </div>
@@ -49,7 +49,7 @@ export default function Home() {
           </button>
         </div>
 
-        {/* Card 3 */}
+        {/* Event 3 */}
         <div className="bg-white rounded-2xl shadow p-6 flex items-center justify-between">
           <div className="flex gap-6 items-center">
             <div className="bg-pink-100 rounded-xl p-4 text-center w-24">
@@ -59,10 +59,10 @@ export default function Home() {
 
             <div>
               <h2 className="text-xl font-semibold">
-                Light park at Bergenhus Fortress
+                Light Park at Bergenhus Fortress
               </h2>
               <p className="text-gray-500 text-sm mt-1">
-                LUMAGICA - a magical experience for young and old.
+                LUMAGICA offers a magical light experience for visitors of all ages.
               </p>
             </div>
           </div>
@@ -72,7 +72,7 @@ export default function Home() {
           </button>
         </div>
 
-        {/* Card 4 */}
+        {/* Event 4 */}
         <div className="bg-white rounded-2xl shadow p-6 flex items-center justify-between">
           <div className="flex gap-6 items-center">
             <div className="bg-green-100 rounded-xl p-4 text-center w-24">
@@ -85,7 +85,7 @@ export default function Home() {
                 Gingerbread City 2021
               </h2>
               <p className="text-gray-500 text-sm mt-1">
-                The world's largest Gingerbread Town in Bergen.
+                The world’s largest gingerbread town located in the center of Bergen.
               </p>
             </div>
           </div>
